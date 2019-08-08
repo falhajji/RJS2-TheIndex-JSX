@@ -33,7 +33,9 @@ function App() {
                       {authors[0].first_name} {authors[0].last_name}
                     </span>
                   </h5>
-                  <small className="card-text">7 books</small>
+                  <small className="card-text">
+                    {authors[0].books.length} books
+                  </small>
                 </div>
               </div>
             </div>
@@ -52,7 +54,9 @@ function App() {
                       {authors[1].first_name} {authors[1].last_name}
                     </span>
                   </h5>
-                  <small className="card-text">5 books</small>
+                  <small className="card-text">
+                    {authors[1].books.length} books
+                  </small>
                 </div>
               </div>
             </div>
@@ -71,7 +75,9 @@ function App() {
                       {authors[2].first_name} {authors[2].last_name}
                     </span>
                   </h5>
-                  <small className="card-text">6 books</small>
+                  <small className="card-text">
+                    {authors[2].books.length} books
+                  </small>
                 </div>
               </div>
             </div>
